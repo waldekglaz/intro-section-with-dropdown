@@ -1,0 +1,22 @@
+@import "abstracts/variables";
+@import "base/reset";
+@import "base/typography";
+@import "leyout/main";
+@import "leyout/nav";
+@import "leyout/header";
+@import "leyout/hero";
+@import "components/buttons";
+.body {
+  position: relative;
+}
+.attribution {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 0 2rem;
+  line-height: 1.6;
+  a {
+    color: $clr-Black;
+  }
+}

@@ -1,0 +1,41 @@
+.hero__img {
+  width: 100%;
+  margin-bottom: 2.984375rem;
+}
+.hero__title {
+  color: $clr-Black;
+  font-size: 2.25rem;
+  letter-spacing: -0.5px;
+  line-height: 42px;
+  margin-bottom: 1rem;
+}
+.hero__text {
+  font-size: 1rem;
+  line-height: 26px;
+  padding: 0 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.clients-container {
+  margin-top: 3rem;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#databiz {
+  width: 81.25px;
+  height: auto;
+}
+#audiophile {
+  width: 52.87px;
+  height: auto;
+}
+#meet {
+  width: 64.14px;
+  height: auto;
+}
+#marker {
+  width: 58.97px;
+  height: auto;
+}

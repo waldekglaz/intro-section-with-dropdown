@@ -13,14 +13,19 @@
     />
 
     <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script defer src="hamburger.js"></script>
   </head>
-  <body>
+  <body class="body">
     <main class="container">
       <header class="header">
         <img src="images/logo.svg" alt="" class="logo" />
+        <div class="nav-container hidden">
         <nav class="nav">
+          <button class="hamburger-close"><img src="images/icon-close-menu.svg" alt="" ></button>
+          
           <ul>
-            <li><a href="" class="nav__item">Features<span class="dropdown-arrow"><img src="images/icon-arrow-down.svg" alt=""></span></a></li>
+            <li class="dropdown nav__item"><a href="" class="nav__item">Features<span class="dropdown__arrow"><img src="images/icon-arrow-down.svg" alt=""></span></a></li>
             <div class="sub-menu">
               <ul>
                 <li><a href="#"><img src="images/icon-todo.svg" alt=""><span>Todo List</span></a></li>
@@ -29,7 +34,7 @@
                 <li><a href="#"><img src="images/icon-planning.svg" alt=""><span>Planning</span></a></li>
               </ul>
             </div>
-            <li><a href="" class="nav__item">Company<span class="dropdown-arrow"><img src="images/icon-arrow-down.svg" alt=""></span></a></li>
+            <li class="dropdown nav__item"><a href="" class="nav__item">Company<span class="dropdown__arrow"><img src="images/icon-arrow-down.svg" alt=""></span></a></li>
             <div class="sub-menu">
               <ul>
                 <li><a href="#"><span>History</span></a></li>
@@ -37,22 +42,23 @@
                 <li><a href="#"><span>Blog</span></a></li>
               </ul>
             </div>
-            <li><a href="" class="nav__item">Careers</a></li>
-            <li><a href="" class="nav__item">About</a></li>
+            <li class="nav__item"><a href="" >Careers</a></li>
+            <li class="nav__item"><a href="" >About</a></li>
           </ul>
           <div class="btn-container">
-            <a href="" class="btn btn--narrow">Login</a>
-            <a href="" class="btn btn--narrow">Register</a>
+            <a href="" class="btn btn--wide btn--white">Login</a>
+            <a href="" class="btn btn--wide btn--white btn--outline">Register</a>
           </div>
         </nav>
+      </div>
         <button type="button" class="hamburger">
           <img src="images/icon-menu.svg" alt="">
         </button type="button">
       </header>
       <div class="hero">
-        <picture class="hero__img">
+        <picture >
           <source srcset="images/image-hero-desktop.png" media="(min-width:1024px)">
-          <img src="images/image-hero-mobile.png" alt="">
+          <img class="hero__img" src="images/image-hero-mobile.png" alt="">
         </picture>
         <div class="hero__content">
           <h1 class="hero__title">Make remote work</h1>
@@ -60,7 +66,13 @@
             in sync, no matter your location. Streamline processes, create team rituals,
             and watch productivity soar.
           </p>
-          <a href="#" class="btn">Learn more</a>
+          <a href="#" class="btn btn--black">Learn more</a>
+          <div class="clients-container">
+            <img src="images/client-databiz.svg" alt="" class="client" id="databiz">
+            <img src="images/client-audiophile.svg" alt="" class="client" id="audiophile">
+            <img src="images/client-meet.svg" alt="" class="client" id="meet">
+            <img src="images/client-maker.svg" alt="" class="client" id="marker">
+          </div>
         </div>
       </div>
     </main>
@@ -70,7 +82,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Waldemar🥋Głaz</a>.
     </div>
   </body>
 </html>
