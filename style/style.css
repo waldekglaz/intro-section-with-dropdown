@@ -80,6 +80,7 @@ body {
 }
 
 .sub-menu {
+  margin-top: 1.5rem;
   padding-left: 1.4375rem;
   margin-bottom: 1.5rem;
 }
@@ -92,8 +93,25 @@ body {
   margin-right: 1rem;
 }
 
+.sub-menu.hidden {
+  display: none;
+}
+
 .btn-container {
   margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header {
@@ -183,12 +201,27 @@ body {
   letter-spacing: -0.22px;
   border-radius: 15px;
   font-size: 1rem;
+  text-align: center;
 }
 
 .btn--black {
   background-color: #141414;
   color: #fafafa;
   padding: 12px 24px;
+}
+
+.btn--wide {
+  width: 100%;
+}
+
+.btn--outline {
+  border: 1.5px solid dimgray;
+  border-radius: 14px;
+  padding: 0.8125rem 0;
+}
+
+.btn--transparent {
+  margin-bottom: 1rem;
 }
 
 .body {

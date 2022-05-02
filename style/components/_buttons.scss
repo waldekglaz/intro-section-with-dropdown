@@ -3,22 +3,21 @@
   letter-spacing: -0.22px;
   border-radius: 15px;
   font-size: 1rem;
+  text-align: center;
 }
 .btn--black {
   background-color: $clr-Black;
   color: $clr-White;
   padding: 12px 24px;
 }
-// .btn--wide {
-//   width: 100%;
-// }
-// .btn--white {
-//   color: $clr-Grey;
-// }
-
-// .gsggsgs {
-//
-//   letter-spacing: -0.22px;
-//   border-radius: 15px;
-//   font-size: 1rem;
-// }
+.btn--wide {
+  width: 100%;
+}
+.btn--outline {
+  border: 1.5px solid $clr-Grey;
+  border-radius: 14px;
+  padding: 0.8125rem 0;
+}
+.btn--transparent {
+  margin-bottom: 1rem;
+}

@@ -40,6 +40,7 @@
   margin-left: auto;
 }
 .sub-menu {
+  margin-top: 1.5rem;
   padding-left: 1.4375rem;
   margin-bottom: 1.5rem;
   li {
@@ -49,6 +50,13 @@
     }
   }
 }
+.sub-menu.hidden {
+  display: none;
+}
 .btn-container {
   margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
