@@ -142,6 +142,10 @@ body {
   cursor: pointer;
 }
 
+.hero__content {
+  padding: 0 2%;
+}
+
 .hero__img {
   width: 100%;
   margin-bottom: 2.984375rem;
@@ -196,6 +200,12 @@ body {
   height: auto;
 }
 
+@media (min-width: 500px) {
+  .hero__content {
+    padding: 0 14%;
+  }
+}
+
 .btn {
   cursor: pointer;
   letter-spacing: -0.22px;
@@ -208,6 +218,14 @@ body {
   background-color: #141414;
   color: #fafafa;
   padding: 12px 24px;
+  border: 1px solid #141414;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.btn--black:hover {
+  background-color: transparent;
+  color: #141414;
 }
 
 .btn--wide {
@@ -231,6 +249,9 @@ body {
 .attribution {
   position: absolute;
   bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   text-align: center;
   font-size: 0.75rem;
   padding: 0 2rem;

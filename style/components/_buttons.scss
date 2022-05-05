@@ -9,6 +9,12 @@
   background-color: $clr-Black;
   color: $clr-White;
   padding: 12px 24px;
+  border: 1px solid $clr-Black;
+  transition: 0.4s;
+  &:hover {
+    background-color: transparent;
+    color: $clr-Black;
+  }
 }
 .btn--wide {
   width: 100%;
