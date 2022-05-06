@@ -22,3 +22,8 @@
     color: $clr-Black;
   }
 }
+@media (min-width: 1024px) {
+  .attribution {
+    bottom: 5%;
+  }
+}
