@@ -154,8 +154,10 @@
   }
 }
 @media (min-width: 1440px) {
+  .hero {
+    padding: 0 10.3125rem;
+  }
   .hero__content {
-    padding-left: 10.3125rem;
     margin-right: 125px;
   }
   .hero__title {
