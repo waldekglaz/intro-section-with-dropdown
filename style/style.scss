@@ -12,12 +12,11 @@
 
 .attribution {
   position: absolute;
-  bottom: 0;
+  bottom: 1%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  font-size: 0.75rem;
-  padding: 0 2rem;
+  font-size: 0.5rem;
   line-height: 1.6;
   a {
     color: $clr-Black;
