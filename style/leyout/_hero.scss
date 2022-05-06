@@ -52,7 +52,7 @@
 @media (min-width: 1024px) {
   .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0 6%;
   }
@@ -62,6 +62,7 @@
     padding: 0;
     text-align: left;
     margin-right: 10%;
+    height: 100%;
   }
   .hero__title {
     font-size: 5.5vw;
@@ -83,7 +84,7 @@
     margin-bottom: 0;
   }
   #databiz {
-    width: 10vw;
+    width: 113px;
     height: auto;
   }
   #audiophile {
@@ -97,5 +98,17 @@
   #marker {
     width: 82px;
     height: auto;
+  }
+}
+@media (min-width: 1440px) {
+  .hero__content {
+    padding-left: 10.3125rem;
+    margin-right: 125px;
+  }
+  .hero__title {
+    font-size: 5rem;
+  }
+  .hero__text {
+    font-size: 1.125rem;
   }
 }

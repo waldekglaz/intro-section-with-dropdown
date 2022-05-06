@@ -7,3 +7,9 @@
     padding: 2rem 0 7.625rem;
   }
 }
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+    margin: 0 auto;
+  }
+}
