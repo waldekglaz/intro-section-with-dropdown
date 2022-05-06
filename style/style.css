@@ -103,7 +103,7 @@ body {
   margin-right: 1rem;
 }
 
-.sub-menu.hidden {
+.sub-menu.disabled {
   display: none;
 }
 
@@ -307,6 +307,66 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 4%;
+  }
+  .hero__content {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    padding: 0 2rem 0 0;
+    text-align: left;
+    height: 100%;
+  }
+  .hero__title {
+    font-size: 5.4vw;
+    line-height: 1.2;
+    letter-spacing: -1.11px;
+    margin-bottom: 1rem;
+    padding-top: 5.8375rem;
+  }
+  .hero__text {
+    padding: 0;
+    font-size: 1.425vw;
+    margin-bottom: 3.1875rem;
+    max-width: 86%;
+    line-height: 1.4;
+  }
+  .clients-container {
+    margin-top: 2.75rem;
+    width: 270px;
+  }
+  .hero__img {
+    margin-bottom: 0;
+  }
+  #databiz {
+    width: 83px;
+    height: auto;
+  }
+  #audiophile {
+    width: 43px;
+    height: auto;
+  }
+  #meet {
+    width: 59px;
+    height: auto;
+  }
+  #marker {
+    width: 52px;
+    height: auto;
+  }
+}
+
 @media (min-width: 1024px) {
   .hero {
     display: -webkit-box;
@@ -334,7 +394,7 @@ body {
     line-height: 80px;
     letter-spacing: -1.11px;
     margin-bottom: 3rem;
-    padding-top: 9.4375rem;
+    padding-top: 7.8375rem;
   }
   .hero__text {
     padding: 0;
@@ -345,9 +405,40 @@ body {
   }
   .clients-container {
     margin-top: 6.75rem;
+    width: 470px;
   }
   .hero__img {
     margin-bottom: 0;
+  }
+  #databiz {
+    width: 103px;
+    height: auto;
+  }
+  #audiophile {
+    width: 63px;
+    height: auto;
+  }
+  #meet {
+    width: 79px;
+    height: auto;
+  }
+  #marker {
+    width: 72px;
+    height: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero__content {
+    padding-left: 10.3125rem;
+    margin-right: 125px;
+  }
+  .hero__title {
+    font-size: 5rem;
+    padding-top: 8.4375rem;
+  }
+  .hero__text {
+    font-size: 1.125rem;
   }
   #databiz {
     width: 113px;
@@ -364,20 +455,6 @@ body {
   #marker {
     width: 82px;
     height: auto;
-  }
-}
-
-@media (min-width: 1440px) {
-  .hero__content {
-    padding-left: 10.3125rem;
-    margin-right: 125px;
-  }
-  .hero__title {
-    font-size: 5rem;
-    padding-top: 10.4375rem;
-  }
-  .hero__text {
-    font-size: 1.125rem;
   }
 }
 

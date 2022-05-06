@@ -18,8 +18,8 @@ document
   .querySelector(".features-dropdown")
   .addEventListener("click", function () {
     arrowIconFeatures.src = "images/icon-arrow-up.svg";
-    featuresSubMenu.classList.toggle("hidden");
-    if (featuresSubMenu.classList.contains("hidden")) {
+    featuresSubMenu.classList.toggle("disabled");
+    if (featuresSubMenu.classList.contains("disabled")) {
       arrowIconFeatures.src = "images/icon-arrow-down.svg";
     }
   });
@@ -28,8 +28,8 @@ document
   .querySelector(".company-dropdown")
   .addEventListener("click", function () {
     arrowIconCompany.src = "images/icon-arrow-up.svg";
-    companySubMenu.classList.toggle("hidden");
-    if (companySubMenu.classList.contains("hidden")) {
+    companySubMenu.classList.toggle("disabled");
+    if (companySubMenu.classList.contains("disabled")) {
       arrowIconCompany.src = "images/icon-arrow-down.svg";
     }
   });

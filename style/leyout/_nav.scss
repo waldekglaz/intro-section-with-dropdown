@@ -50,7 +50,7 @@
     }
   }
 }
-.sub-menu.hidden {
+.sub-menu.disabled {
   display: none;
 }
 .btn-container {
@@ -94,9 +94,7 @@
   .dropdown__arrow {
     margin-left: 9px;
   }
-  // .sub-menu ul {
-  //   display: none;
-  // }
+
   .sub-menu {
     background-color: #fff;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
