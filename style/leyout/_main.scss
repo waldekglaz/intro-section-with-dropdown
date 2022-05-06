@@ -2,3 +2,8 @@
   padding: 1rem 0 5.875rem;
   text-align: center;
 }
+@media (min-width: 1024px) {
+  .container {
+    padding: 2rem 0 7.625rem;
+  }
+}

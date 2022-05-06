@@ -4,12 +4,12 @@ const companySubMenu = document.querySelector(".company-sub-menu");
 const arrowIconFeatures = document.querySelector(".features__arrow");
 const arrowIconCompany = document.querySelector(".company__arrow");
 document.querySelector(".hamburger").addEventListener("click", function () {
-  mobileNav.classList.remove("hidden");
+  mobileNav.style.display = "block";
 });
 document
   .querySelector(".hamburger-close")
   .addEventListener("click", function () {
-    mobileNav.classList.add("hidden");
+    mobileNav.style.display = "none";
   });
 
 // sub menus

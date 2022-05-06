@@ -27,3 +27,11 @@
 .btn--transparent {
   margin-bottom: 1rem;
 }
+@media (min-width: 1024px) {
+  .btn--transparent {
+    margin-bottom: 0;
+  }
+  .btn--outline {
+    padding: 13px 23px;
+  }
+}
