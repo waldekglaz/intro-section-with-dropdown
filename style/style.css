@@ -155,6 +155,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    position: relative;
   }
   .nav__item {
     margin: 0 2.5rem 0 0;
@@ -169,8 +170,24 @@ body {
   .dropdown__arrow {
     margin-left: 9px;
   }
-  .sub-menu ul {
-    display: none;
+  .sub-menu {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
+            box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
+    border-radius: 10px;
+    padding: 1.5rem;
+  }
+  .features-sub-menu {
+    position: absolute;
+    margin: 0;
+    top: 50px;
+    left: -80px;
+  }
+  .company-sub-menu {
+    position: absolute;
+    margin: 0;
+    top: 50px;
+    left: 120px;
   }
   .nav .btn--transparent {
     margin-right: 2.5rem;
@@ -317,6 +334,7 @@ body {
     line-height: 80px;
     letter-spacing: -1.11px;
     margin-bottom: 3rem;
+    padding-top: 9.4375rem;
   }
   .hero__text {
     padding: 0;
@@ -356,6 +374,7 @@ body {
   }
   .hero__title {
     font-size: 5rem;
+    padding-top: 10.4375rem;
   }
   .hero__text {
     font-size: 1.125rem;
